@@ -9,4 +9,11 @@ body {
 header .line{
     background-color: #117050;
     height: 10px;
+    /*Linha verde no topo*/
+}
+
+.container{
+   max-width: 1140px;/*Altura fixa*/
+   margin: auto; /*A logomarca e o texto vai ficar no centro*/
+   /* Barra de menu no topo.*/
 }
