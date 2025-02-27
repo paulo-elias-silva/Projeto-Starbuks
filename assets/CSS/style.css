@@ -6,14 +6,170 @@ body {
     margin: 0;
 }   
 
+.container{
+   max-width: 1140px;/*Altura fixa*/
+   margin: auto; 
+   margin-left: 10px;
+   margin-right: 10px;
+   /*A margem é apenas para ajustar a menu de barras superior*/
+}
+
+.bar{
+    background-color: #006341;
+    width: 168px;
+    height: 22px;
+}
+
+h1{
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-size: 90px;  
+    line-height: 90px; /*Distância das letras*/  
+    margin: 0;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+h2{
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;  
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    line-height: 40px;   
+}
+.button{
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;    
+}
+
+.button:hover {
+    color: #FFF;
+    background-color: #454545;
+
+}
+
 header .line{
     background-color: #117050;
     height: 10px;
     /*Linha verde no topo*/
 }
 
-.container{
-   max-width: 1140px;/*Altura fixa*/
-   margin: auto; /*A logomarca e o texto vai ficar no centro*/
-   /* Barra de menu no topo.*/
+.header--area{
+    display: flex; /*Estou informando se essa DIV vai ser Flebox, Grid, etc*/
+    justify-content: space-between; /*Espaço dos elementos*/
+    align-items: center; /*Alinhamento dos elementos*/
+    height: 100px; /*Altura da DIV*/
+}
+
+.header-left img { /*Modificando o logo*/
+    width: 64px;
+    height: 64px;
+}
+
+.header--right{ /*Separando o lado esquerdo e direito da barra para ajustar os elementos com flexbox*/
+    display: flex;
+    align-items: center;
+}
+
+.header--search form{
+    display: flex;
+}
+.header--search input{ /*Ajustando o campo search*/
+    font-size: 16px;
+    padding: 08px 15px;
+    border: 1px solid #999999;
+    outline: 0;
+    width: 100%; /*Responsível*/
+    max-width: 250px;
+}
+
+.header--search button { /*Modificando o campo do button*/
+    border: 0;
+    background: transparent;
+    margin-left: -30px; /*Colocando lupa dentro do quadrado*/
+    cursor: pointer; /*Mudando o ponteiro de seta para mão*/
+}
+
+.header--search button img {/*Modificando a img/lupa */
+    width: 16px;
+    height: 16px;
+}
+
+.header--menu{ 
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.header--menu img{
+    width: 24px;
+    height: 24px;
+}
+
+.banner{
+    background-image: url('../imagens/bg.jpg'); /*Indicando o caminho da imagem, os dois pontos ".." é para voltar*/
+    /*Posicionando a imagem no fundo: */
+    background-position: center;
+    background-size: cover; /*Tamanho disponível*/
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.banner--images{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+span{
+    margin-left: 20px;
+}
+.banner--images img{
+    width: 148px;
+    height: 148px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.area1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.area1--content{
+    padding: 90px;
+}
+
+.area1--quote {
+    margin-bottom: 30px;
+
+
+}
+
+.area1--text{
+    line-height: 25px;
+    margin-bottom: 50px;
+
+}
+
+.area1--img1{
+    background-color: green;
+    height: 350px;
+    background-image: url("../imagens/f2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.area1--img2{
+    background-color: red; 
+    grid-column: 2 / 3;
+    grid-row: 1/ 3;  /*Fazendo que a img ocupe todo o espaço direito*/
+    background-image: url("../imagens/f1.jpg");
+    background-size: cover;
+    background-position: center;
 }
