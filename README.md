@@ -6,4 +6,4 @@ Este repositório contém o projeto de recriação da interface do site da Starb
 
 Ao analisar o código, se sinta a vontade para dar alguma sugestão.
 
-![Imagem](https://blog.ucoffee.com.br/ucoffee_blog/wp-content/uploads/2020/09/560px-x-313px-1-500x315.png)
+![Imagem]([https://blog.ucoffee.com.br/ucoffee_blog/wp-content/uploads/2020/09/560px-x-313px-1-500x315.png](https://github.com/paulo-elias-silva/Projeto-Starbuks/blob/original/assets/imagens/Site_SB.png?raw=true))
