@@ -8,3 +8,4 @@ Ao analisar o código, se sinta a vontade para dar alguma sugestão.
 
 ![Imagem](https://cdn.pixabay.com/photo/2025/03/29/22/17/22-17-53-89_1280.png)
 
+Link do site: https://paulo-elias-silva.github.io/Projeto-Starbuks/
